@@ -12,12 +12,12 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div id="hero" className="">
-      <div className="mt-20 rounded-b-[1.5rem] md:rounded-b-[4rem] bg-slate-950 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] ">
+      <div className="rounded-b-[1.5rem] md:rounded-b-[4rem] bg-slate-950 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] ">
         {/* <div className=" absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div> */}
         <Navbar />
-        <main className="min-h-screen md:max-w-4xl lg:max-w-6xl mx-auto md:pb-10 p-2">
+        <main className="min-h-screen md:min-h-full md:max-w-4xl lg:max-w-6xl mx-auto md:pb-10 p-2 ">
           {" "}
-          <div className="flex items-center justify-center flex-col ">
+          <div className="flex items-center justify-center flex-col mt-20 ">
             <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center  relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-400 via-neutral-300 to-neutral-300 dark:from-neutral-800 dark:via-white dark:to-white">
               Helping Businesses To Excel <br /> Through{" "}
               <Cover>Technology</Cover>

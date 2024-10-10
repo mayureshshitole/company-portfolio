@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav
       id="top"
-      className="bg-[#FBBF24] py-2 z-50 overflow-hidden fixed w-full top-0 shadow-lg  mx-auto md:max-w-4xl lg:max-w-6xl rounded-md border "
+      className="bg-[#FBBF24] py-2 z-50 overflow-hidden fixed w-full inset-x-0 top-0 shadow-lg  mx-auto md:max-w-4xl lg:max-w-6xl rounded-md border "
     >
       <div className="px-4">
         <div className="flex justify-between items-center h-16">
