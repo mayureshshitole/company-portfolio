@@ -1,4 +1,4 @@
-"use client"
+
 import React from "react";
 import WordFadeIn from "./ui/word-fade-in";
 import Image from "next/image";

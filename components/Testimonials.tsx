@@ -40,7 +40,7 @@ const Testimonials = () => {
             assist you, whether it is a simple query or a complex issue.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            At <strong>[Your Company Name]</strong>, we also emphasize the value
+            At <strong>AmbiCube</strong>, we also emphasize the value
             of collaboration. Through <strong>real-time editing</strong> and{" "}
             <strong>version control</strong>, we streamline your workflow,
             making it easier for teams to work together seamlessly. We believe

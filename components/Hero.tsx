@@ -18,7 +18,7 @@ const Hero = () => {
         <main className="min-h-screen md:max-w-4xl lg:max-w-6xl mx-auto md:pb-10 p-2">
           {" "}
           <div className="flex items-center justify-center flex-col ">
-            <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-400 via-neutral-300 to-neutral-300 dark:from-neutral-800 dark:via-white dark:to-white">
+            <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center  relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-400 via-neutral-300 to-neutral-300 dark:from-neutral-800 dark:via-white dark:to-white">
               Helping Businesses To Excel <br /> Through{" "}
               <Cover>Technology</Cover>
             </h1>
@@ -36,25 +36,25 @@ const Hero = () => {
           </div>
           <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 text-xl place-items-center md:justify-items-center  md:mx-auto mt-10 md:mt-16">
             <BoxReveal boxColor={"#fcd34d"} duration={0.5}>
-              <p className="text-white md:text-xl gap-x-2 md:gap-x-4 flex items-center">
+              <p className="text-white text-2xl md:text-3xl gap-x-2 md:gap-x-4 flex items-center">
                 <PiCheckBold className="text-amber-300 text-xl"></PiCheckBold>{" "}
                 Discuss
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#fcd34d"} duration={0.5}>
-              <p className="text-white md:text-xl gap-x-2 md:gap-x-4 flex items-center">
+              <p className="text-white text-2xl md:text-3xl gap-x-2 md:gap-x-4 flex items-center">
                 <PiCheckBold className="text-amber-300 text-xl"></PiCheckBold>{" "}
                 Design
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#fcd34d"} duration={0.5}>
-              <p className="text-white md:text-xl gap-x-2 md:gap-x-4 flex items-center">
+              <p className="text-white text-2xl md:text-3xl gap-x-2 md:gap-x-4 flex items-center">
                 <PiCheckBold className="text-amber-300 text-xl"></PiCheckBold>{" "}
                 Develop
               </p>
             </BoxReveal>
             <BoxReveal boxColor={"#fcd34d"} duration={0.5}>
-              <p className="text-white md:text-xl gap-x-2 md:gap-x-4 flex items-center">
+              <p className="text-white text-2xl md:text-3xl gap-x-2 md:gap-x-4 flex items-center">
                 <PiCheckBold className="text-amber-300 text-xl"></PiCheckBold>{" "}
                 Deploy
               </p>
@@ -78,9 +78,9 @@ const Hero = () => {
               </h1> */}
             </div>
 
-            <div className=" flex items-center justify-between md:gap-x-5 my-6">
+            <div className=" flex flex-wrap items-center justify-between md:gap-x-5 my-6">
               <div>
-                <h1 className="text-3xl md:text-5xl">
+                <h1 className="text-3xl md:text-5xl flex flex-col items-center justify-start">
                   <p className="whitespace-pre-wrap text-3xl font-medium tracking-tighter text-white">
                     <NumberTicker value={6} />+
                   </p>
@@ -90,15 +90,15 @@ const Hero = () => {
                 </h1>
               </div>
               <div>
-                <h1 className="text-3xl md:text-5xl">
+                <h1 className="text-3xl md:text-5xl flex flex-col items-center justify-start">
                   <p className="whitespace-pre-wrap text-3xl font-medium tracking-tighter text-white">
                     <NumberTicker value={100} />+
                   </p>
-                  <p className="text-gray-200 text-sm md:text-lg">Projects</p>
+                  <p className="text-gray-200 text-sm md:text-lg">Projects Deployed</p>
                 </h1>
               </div>
               <div>
-                <h1 className="text-3xl md:text-5xl">
+                <h1 className="text-3xl md:text-5xl flex flex-col items-center justify-start">
                   <p className="whitespace-pre-wrap text-3xl font-medium tracking-tighter text-white">
                     <NumberTicker value={400} />+
                   </p>
