@@ -9,14 +9,14 @@ const Navbar = () => {
   return (
     <nav
       id="top"
-      className="bg-[#FBBF24] py-2 z-50 overflow-hidden sticky top-0 shadow-lg  mx-auto md:max-w-4xl lg:max-w-6xl rounded-md border "
+      className="bg-[#FBBF24] py-2 z-50 overflow-hidden fixed w-full top-0 shadow-lg  mx-auto md:max-w-4xl lg:max-w-6xl rounded-md border "
     >
       <div className="px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex justify-between items-center w-full">
             <div className="flex-shrink-0 flex items-center rounded-full border-8 border-white hover:rotate-45 hover:scale-110 transition-all ease-in-out duration-300">
               {/* Your logo or brand */}
-              <ScrollLink to="/" smooth={true}>
+              <ScrollLink to="hero" smooth={true}>
                 <Image
                   src={"/logo.png"}
                   width={50}
@@ -57,7 +57,7 @@ const Navbar = () => {
             {/* contact btn */}
             <div className="hidden md:block">
               <button className="px-8 py-0.5  border-2 border-black dark:border-white uppercase bg-white text-black transition-all ease-in-out duration-200 text-sm active:scale-105 hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] ">
-                Call
+                <a href="tel:+4407436359533">Call</a>
               </button>
             </div>
           </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className=" flex items-center md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-800 hover:bg-red-700 hover:gray-900 focus:outline-none focus:text-white"
+              className="text-gray-800  hover:gray-900 focus:outline-none focus:text-white"
             >
               <svg
                 className="h-6 w-6"
@@ -111,7 +111,7 @@ const Navbar = () => {
             </ScrollLink>
             <ScrollLink
               onClick={() => setIsOpen(!isOpen)}
-              to="servicehub"
+              to="servicetab"
               smooth={true}
               className="text-gray-800 hover:bg-red-700 hover:gray-900 block px-3 py-2 rounded-md text-base font-medium"
             >
@@ -128,7 +128,7 @@ const Navbar = () => {
             {/* contact btn */}
             <div className="w-full bg-white text-center py-2 rounded-md shadow-lg active:scale-105 transition-all ease-in-out duration-200">
               <button className="px-8 py-0.5  border-2 border-black dark:border-white uppercase bg-white text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] ">
-                Call
+                <a href="tel:+4407436359533">Call</a>
               </button>
             </div>
           </div>

@@ -11,8 +11,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="">
-      <div className=" rounded-b-[4rem] bg-slate-950 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] ">
+    <div id="hero" className="">
+      <div className="mt-20 rounded-b-[1.5rem] md:rounded-b-[4rem] bg-slate-950 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] ">
         {/* <div className=" absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div> */}
         <Navbar />
         <main className="min-h-screen md:max-w-4xl lg:max-w-6xl mx-auto md:pb-10 p-2">
@@ -78,9 +78,9 @@ const Hero = () => {
               </h1> */}
             </div>
 
-            <div className=" flex flex-wrap items-center justify-between md:gap-x-5 my-6">
+            <div className=" flex flex-auto items-center justify-center gap-5 md:gap-x-5 mt-6 mb-16">
               <div>
-                <h1 className="text-3xl md:text-5xl flex flex-col items-center justify-start">
+                <h1 className="text-3xl md:text-5xl flex flex-col items-start justify-center">
                   <p className="whitespace-pre-wrap text-3xl font-medium tracking-tighter text-white">
                     <NumberTicker value={6} />+
                   </p>
@@ -90,7 +90,7 @@ const Hero = () => {
                 </h1>
               </div>
               <div>
-                <h1 className="text-3xl md:text-5xl flex flex-col items-center justify-start">
+                <h1 className="text-3xl md:text-5xl flex flex-col items-start justify-center">
                   <p className="whitespace-pre-wrap text-3xl font-medium tracking-tighter text-white">
                     <NumberTicker value={100} />+
                   </p>
@@ -98,7 +98,7 @@ const Hero = () => {
                 </h1>
               </div>
               <div>
-                <h1 className="text-3xl md:text-5xl flex flex-col items-center justify-start">
+                <h1 className="text-3xl md:text-5xl flex flex-col items-start justify-center">
                   <p className="whitespace-pre-wrap text-3xl font-medium tracking-tighter text-white">
                     <NumberTicker value={400} />+
                   </p>
