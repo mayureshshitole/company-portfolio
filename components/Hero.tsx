@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import { Cover } from "./ui/cover";
 import BoxReveal from "./ui/box-reveal";
 import { PiCheckBold } from "react-icons/pi";
