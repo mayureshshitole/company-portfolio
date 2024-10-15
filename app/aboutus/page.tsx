@@ -1,8 +1,11 @@
+import Testimonials from '@/components/Testimonials'
 import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+   <section className='mt-20 '> 
+    <Testimonials />
+   </section>
   )
 }
 

@@ -14,7 +14,6 @@ const Footer = () => {
             alt="image"
           />{" "}
         </h1>
-        <p className="text-left  text-xl  text-gray-500">+4407436359533</p>
         <p className="text-left  text-xl  text-gray-500">
           contact@ambicube.com
         </p>

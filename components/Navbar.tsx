@@ -3,6 +3,7 @@ import Image from "next/image";
 // import ScrollLink from "next/ScrollLink";
 import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
+import Link from 'next/link'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center w-full">
             <div className="flex-shrink-0 flex items-center rounded-full border-8 border-white hover:rotate-45 hover:scale-110 transition-all ease-in-out duration-300">
               {/* Your logo or brand */}
-              <ScrollLink to="hero" smooth={true}>
+              <Link  href="/">
                 <Image
                   src={"/logo.png"}
                   width={50}
@@ -24,19 +25,18 @@ const Navbar = () => {
                   className="w-18 "
                   alt="image"
                 />{" "}
-              </ScrollLink>
+              </Link>
             </div>
 
             {/* Navigation ScrollLinks */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <ScrollLink
-                  to="aboutus"
-                  smooth={true}
+                <Link
+                  href="/aboutus"
                   className="text-gray-800  hover:gray-900 hover:scale-125 transition-all ease-in-out duration-300 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   About Us
-                </ScrollLink>
+                </Link>
 
                 <ScrollLink
                   to="servicetab"
