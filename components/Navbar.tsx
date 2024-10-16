@@ -45,6 +45,12 @@ const Navbar = () => {
                 >
                   Services
                 </ScrollLink>
+                <Link
+                  href="/projects"
+                  className="text-gray-800  hover:gray-900 hover:scale-125 transition-all ease-in-out duration-300 px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Projects
+                </Link>
                 <ScrollLink
                   to="contactus"
                   smooth={true}
@@ -115,6 +121,12 @@ const Navbar = () => {
             >
               Services
             </ScrollLink>
+            <Link
+              href="/projects"
+              className="text-gray-800  hover:gray-900 hover:scale-125 transition-all ease-in-out duration-300 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Projects
+            </Link>
             <ScrollLink
               onClick={() => setIsOpen(!isOpen)}
               to="contactus"

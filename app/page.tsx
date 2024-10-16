@@ -2,6 +2,8 @@ import { Features } from "@/components/Features";
 import Hero from "../components/Hero";
 
 import Services from "@/components/Services";
+import ExpandableCardDemo from "@/components/blocks/expandable-card-demo-grid";
+
 
 export default function Home() {
   return (
@@ -10,10 +12,8 @@ export default function Home() {
         <Hero />
         {/* <Cta /> */}
         <Services />
+        <ExpandableCardDemo/>
         <Features />
-        {/* <Projects /> */}
-        {/* <Testimonials /> */}
-        {/* <Contactus /> */}
       </div>
       {/* <Footer /> */}
     </main>
