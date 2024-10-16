@@ -109,7 +109,7 @@ export default function ExpandableCardDemo() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className="text-neutral-600 text-xl md:text-sm lg:text-base  md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto  [mask:linear-gradient(to_bottom,white,white,transparent)] [scrollbar-width:none] [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch]"
+                    className="text-neutral-600 text-base   md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto  [mask:linear-gradient(to_bottom,white,white,transparent)] [scrollbar-width:none] [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch]"
                   >
                     {typeof active.content === "function"
                       ? active.content()
@@ -253,9 +253,7 @@ const cards = [
           and let Guzzle handle the low level implementation details for you.
           Built on the foundation of Apache Spark, Guzzle leverages the Spark
           connectors to extract and load data at massive scale on most common
-          datastores, both relational data warehouses or data lakes. All the
-          transformation and validation rules in Guzzle are specified in SQL,
-          lingua franca of the data.
+          datastores, both relational data warehouses or data lakes.
         </p>
       );
     },
@@ -274,13 +272,11 @@ const cards = [
           DataThis data analytics project involved the development of a
           predictive stress monitoring system for hospital nurses by analyzing
           physiological and orientation data from a 10GB CSV dataset. The
-          dataset included key physiological metrics such as Electrodermal
-          Activity EDA, Heart Rate HR, and Temperature TEMP, along with
-          orientation data X, Y, Z axes. The primary goal was to predict stress
-          levels among nurses in real-time, enabling proactive stress management
-          to improve their well-being and job performance. The project employed
-          advanced **machine learning techniques** to analyze the correlation
-          between physiological metrics and stress levels.
+          primary goal was to predict stress levels among nurses in real-time,
+          enabling proactive stress management to improve their well-being and
+          job performance. The project employed advanced **machine learning
+          techniques** to analyze the correlation between physiological metrics
+          and stress levels.
         </p>
       );
     },
